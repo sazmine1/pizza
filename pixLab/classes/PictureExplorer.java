@@ -806,7 +806,7 @@ public class PictureExplorer implements MouseMotionListener, ActionListener, Mou
     Picture pizzazz = new Picture("pizzaTower.jpg");
     pizzazz.explore();
     Picture smallP = pizzazz.scale(0.5,0.5);
-    smallP.write("smallP.jpg");
+    smallP.write("smallTower.jpg");
     smallP.explore();
   }
   
